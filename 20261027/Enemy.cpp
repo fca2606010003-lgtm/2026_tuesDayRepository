@@ -19,7 +19,7 @@ void Enemy::size() const
 	cout << "Enemy Pop:" << pop << endl;
 }
 
-void Enemy::Damage(int damage) const
+void Enemy::Damage(int damage)
 {
 	hp -= damage;
 }
